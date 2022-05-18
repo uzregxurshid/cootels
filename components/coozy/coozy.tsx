@@ -13,8 +13,8 @@ const Coozy = () => {
     coozy__left: ``,
     coozy__header: `text-h2 font-Montserrat font-semibold width-[690px] text-[#192252] tracking-[-0.01em;]`,
     coozy__text: `font-Inter text-main mt-6 w-[584px] text-[#848FAC]`,
-    coozy__text2: `font-Inter text-main mt-[16px] w-[584px] text-[#848FAC]`,
-    coozy__bottom:`mt-[16px]`
+    coozy__text2: `font-Inter text-main mt-4 w-[584px] text-[#848FAC]`,
+    coozy__bottom:`mt-4`
   }
   useEffect(() => {
     AOS.init();
