@@ -6,6 +6,15 @@ import Imagef from '../../assets/images/active/imagef.png';
 import Imaget from '../../assets/images/active/imaget.png';
 const Activity = () => {
   const styles = {
+    active:`active`,
+    container:`max-w-[1240px] w-full mx-auto block px-5 pt-[80px] pb-[80px]`,
+    active__container:`flex flex-col`,
+    active__top:`flex flex-row items-center justify-between`,
+    active__bottom:`flex flex-row items-center justify-between mt-8`,
+    active__header: `text-h2 font-Montserrat font-semibold text-[#192252] tracking-[-0.01em;]`,
+    active__text: `font-Inter text-main mt-6 w-[584px] text-[#848FAC]`,
+    active__right:``,
+    active__left:``
 
   }
   useEffect(() => {
@@ -15,11 +24,11 @@ const Activity = () => {
 
   return (
 
-    <div className={styles.active}>
+    <div className={styles.active} >
       <div className={styles.container}>
         <div className={styles.active__container}>
           <div className={styles.active__top}>
-            <div className={styles.active__left}>
+            <div className={styles.active__left} data-aos="flip-up">
               <h2 className={styles.active__header}>
                 Cabin Activities
               </h2>
@@ -35,7 +44,7 @@ const Activity = () => {
               />
             </div>
           </div>
-          <div className={styles.active__bottom}>
+          <div className={styles.active__bottom} data-aos="flip-up">
             <div className={styles.active__left}>
               <Image
                 src={Imagef}
