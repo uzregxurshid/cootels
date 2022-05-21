@@ -20,12 +20,12 @@ const Blogs = () => {
     blog__list: `flex items-center justify-between w-[384px]`,
     blog__item:`flex flex-col mx-3`,
     blog__imgwrapper:`block`,
-    blog__image:``,
     blog__title:`mt-8 font-Montserrat font-semibold text-h3 text-black`,
     blog__define:`font-Inter text-main mt-6 w-[584px] text-[#848FAC] w-[384px]`,
     blog__link:`mt-8 flex items-center text-main hover:opacity-75 text-[#192252] transition-opacity duration-200`,
+    blog__tlink:`mr-3`,
+    blog__image:``,
     blog__larr:``,
-    blog__tlink:`mr-3`
   }
   useEffect(() => {
     AOS.init();

@@ -4,6 +4,7 @@ import Blog from '../components/blogs/blogs';
 import Coozy from '../components/coozy/coozy';
 import Header from '../components/header/header';
 import Intro from '../components/intro/intro';
+import Tips from '../components/tips/tips';
 const Home: NextPage = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       <Coozy/>
       <Activity/>
       <Blog/>
+      <Tips/>
     </>
   )
 }

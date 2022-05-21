@@ -16,11 +16,12 @@ module.exports = {
         },
         'main':['18px', '27px'],
         'h2':['36px','54px'],
-        'h3':['24px','36px']
+        'h3':['24px','36px'],
       },
       color:{
         
       }
+      
     },
   },
   plugins: [],
