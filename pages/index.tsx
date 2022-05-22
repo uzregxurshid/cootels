@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head';
 import Activity from '../components/activity/activity';
 import Blog from '../components/blogs/blogs';
 import Coozy from '../components/coozy/coozy';
@@ -10,6 +11,9 @@ import Tips from '../components/tips/tips';
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Cootels</title>
+      </Head>
       <Header />
       <Intro />
       <Coozy/>
