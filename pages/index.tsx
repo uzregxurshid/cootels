@@ -16,12 +16,12 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <Intro />
-      <Coozy/>
+      {/* <Coozy/>
       <Activity/>
       <Blog/>
       <Tips/>
       <Quota/>
-      <Footer/>
+      <Footer/> */}
     </>
   )
 }
