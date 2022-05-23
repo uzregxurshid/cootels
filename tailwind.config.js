@@ -20,13 +20,7 @@ module.exports = {
       },
       color:{
         
-      },
-      screens:{
-        'otfz':{'min':'1240px'},
-        'efz':{'min':'850px'},
-        'ffz':{'min':'440px'},
       }
-      
     },
   },
   plugins: [],
